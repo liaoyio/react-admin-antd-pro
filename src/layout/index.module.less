@@ -1,0 +1,25 @@
+.line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  background-color: #4096ff;
+}
+
+.tabItem_active {
+  .line {
+    animation-name: lineIn;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes lineIn {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
