@@ -2,6 +2,8 @@ module.exports = {
   entry: "./main.tsx",
   outDir: "./dist",
   title: "react",
-  publicPath: "https://wanpan11.github.io/react-admin-tp/",
-  cssPublicPath: "https://wanpan11.github.io/react-admin-tp/",
+  // publicPath: "https://liaoyi.github.io/react-admin-tp/",
+  publicPath: "/",
+  // cssPublicPath: "https://liaoyi.github.io/react-admin-tp/",
+  cssPublicPath: "/",
 };
